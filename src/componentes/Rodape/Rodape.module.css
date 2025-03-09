@@ -1,0 +1,8 @@
+.container_footer  {
+    display:flex;
+    justify-content: center;
+    font-size:12px;
+    background-color:#000000;
+    color:#c4c4c4;
+    padding: 5px;
+};
