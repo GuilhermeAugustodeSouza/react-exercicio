@@ -14,11 +14,21 @@ width:100%;
     margin-right: 15px;
     text-decoration:none;
     gap:20px;
-    color:#000000
+    color:#000000;
 
 }
+.container_topo a:hover{
+  text-shadow: 1px 1px 3px black;
+  transition: 1.5s;
+}
+
 .container_topo img{
     width: auto;
     height: 30px;
     margin-right: 400px;
+}
+@media(max-width:724px){
+.container_topo img{
+    margin-right:35px;
+}
 }

@@ -1,21 +1,18 @@
-
 import estilos from "./Topo.module.css";
 import Image from "next/image";
-import Logo from "../../../public/logo.png"
+import Logo from "../../../public/logo.png";
 import Link from "next/link";
 
-export default function Topo(){
-    return(
-<div className={estilos.container_topo}>
-    <Image src={Logo} alt="logotipo de um óculos"/>
-    
-<nav>
+export default function Topo() {
+  return (
+    <div className={estilos.container_topo}>
+      <Image src={Logo} alt="logotipo de um óculos" />
 
-<Link href="#SecaoProdutos">Produtos</Link>
-<Link href="#Sobre">Sobre</Link>
-<Link href="#">Contato</Link>
-</nav>
-
-</div>
-    );
-};
+      <nav>
+        <Link href="#SecaoProdutos">Produtos</Link>
+        <Link href="#Sobre">Sobre</Link>
+        <Link href="#">Contato</Link>
+      </nav>
+    </div>
+  );
+}
