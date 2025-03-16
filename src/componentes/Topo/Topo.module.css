@@ -1,7 +1,7 @@
 .container_topo{
     display: flex;
     text-align: center;
-    justify-content:end;
+    justify-content:flex-end;
     padding:10px;
     
 max-width: 1024px;

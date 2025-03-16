@@ -1,4 +1,12 @@
 import estilos from './SecaoContatos.module.css';
+import Image from 'next/image';
+import Logo from '../../../public/email.png';
+import Facebook from '../../../public/fb.png';
+import Instagram from '../../../public/ig.png';
+import Fone from '../../../public/telefone.png';
+import Twiter from '../../../public/tt.png';
+
+
 export default function SecaoContatos(){
     return(
  <section className={estilos.containerSecaoContatos}>
@@ -12,15 +20,15 @@ export default function SecaoContatos(){
      <div className={estilos.boxCard}>
           <h6>Nossos Contatos</h6>
           <p>Nova Iguaçu- RJ</p>
-          <p>(11)99999-0000</p>
-          <p>someWhere@unknow.com</p>
+          <p><Image src={Fone}/>(11)99999-0000</p>
+          <p> <Image src={Logo}/>someWhere@unknow.com</p>
         </div>
 
         <div className={estilos.boxCard}>
           <h6>Nossas Redes Socias</h6>
-          <p>/OpticaVida</p>
-          <p>@opticaVidaRj</p>
-          <p>@opticaVidaRj</p>
+          <p><Image src={Twiter}/>OpticaVida</p>
+          <p> <Image src={Facebook}/>@opticaVidaRj</p>
+          <p> <Image src={Instagram}/>@opticaVidaRj</p>
         </div>
 
  </div>
