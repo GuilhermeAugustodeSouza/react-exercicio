@@ -5,7 +5,7 @@ import Logo2 from "../../../public/loja.png";
 
 export default function SecaoSobre() {
   return (
-    <section className={estilos.containerSecaoSobre}>
+    <section id='Sobre' className={estilos.containerSecaoSobre}>
     
         <h3>Quem somos nós</h3>
         <p>

@@ -9,7 +9,7 @@ import Twiter from '../../../public/tt.png';
 
 export default function SecaoContatos(){
     return(
- <section className={estilos.containerSecaoContatos}>
+ <section id='Contato' className={estilos.containerSecaoContatos}>
         <h6>Fale Conosco</h6>
         <p>
           Não perca tempo, venha conhecer uma de nossas lojas ou entre em

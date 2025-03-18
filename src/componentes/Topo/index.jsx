@@ -9,9 +9,9 @@ export default function Topo() {
       <Image src={Logo} alt="logotipo de um óculos" />
 
       <nav>
-        <Link href="#SecaoProdutos">Produtos</Link>
+        <Link href="#Produtos">Produtos</Link>
         <Link href="#Sobre">Sobre</Link>
-        <Link href="#">Contato</Link>
+        <Link href="#Contato">Contato</Link>
       </nav>
     </div>
   );

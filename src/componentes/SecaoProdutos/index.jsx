@@ -6,7 +6,7 @@ import oculos04 from "../../../public/oculos04.png";
 import Image from 'next/image';
 export default function SecaoProdutos(){
     return(
-        <section className={estilos.containerProdutos}>
+        <section id='Produtos' className={estilos.containerProdutos}>
             <h2>Nossos Produtos</h2>
             <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, feminino e infantil.</p>
             <p>Todos os nossos preços são acessíveis e contam com a melhor qualidade do mercado. </p>   
